@@ -1,0 +1,31 @@
+{
+  "name": "workrails-passport",
+  "version": "1.0.0",
+  "description": "setup with auth",
+  "main": "index.js",
+  "scripts": {
+    "webserver": "node server/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ByteDown/workrails-passport.git"
+  },
+  "keywords": [
+    "node",
+    "passport"
+  ],
+  "author": "Igor Yuzovitskiy",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/ByteDown/workrails-passport/issues"
+  },
+  "homepage": "https://github.com/ByteDown/workrails-passport#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.4",
+    "jsonwebtoken": "^7.4.2",
+    "lodash": "^4.17.4",
+    "passport": "^0.4.0",
+    "passport-jwt": "^2.2.1"
+  }
+}
